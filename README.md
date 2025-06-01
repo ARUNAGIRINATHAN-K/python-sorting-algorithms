@@ -56,6 +56,11 @@ python3 main.py
 python3 bubble_sort.py
 
 
+![Banner](algorithm_details.png)
+
+
+
+
 Custom Input: Modify the test array in sorting_algorithms.py or main.py to sort custom data. Example:
 test_arr = [your, custom, array]
 print(bubble_sort(test_arr.copy()))

@@ -36,13 +36,11 @@ The following sorting algorithms are implemented:
    ```bash
    git clone https://github.com/your-username/python-sorting-algorithms.git
    cd python-sorting-algorithms
-
-
 (Optional) Install formatting/linting tools:pip install black flake8
 
 
 
-Usage
+**Usage**
 
 Single File: If using sorting_algorithms.py, run:
 python3 sorting_algorithms.py
@@ -55,6 +53,7 @@ python3 main.py
  Alternatively, run individual files, e.g.:
 python3 bubble_sort.py
 
+**Algorithm Details**
 
 ![Banner](algorithm_details.png)
 

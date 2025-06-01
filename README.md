@@ -26,10 +26,6 @@ The following sorting algorithms are implemented:
 - **Radix Sort**: Sorts by processing digits (O(nk)).
 - **Bucket Sort**: Distributes elements into buckets and sorts them (O(n + k) average).
 
-## Repository Structure
-
-python-sorting-algorithms/├── sorting_algorithms.py  # Single file with all algorithms (or separate files below)├── bubble_sort.py        # Individual algorithm files (alternative structure)├── selection_sort.py├── insertion_sort.py├── merge_sort.py├── quick_sort.py├── heap_sort.py├── timsort.py├── counting_sort.py├── radix_sort.py├── bucket_sort.py├── main.py               # Test script for separate files (optional)├── tests/                # Unit tests│   └── test_sorting.py├── README.md             # This file└── .gitignore            # Ignores Python-specific files
-
 ## Requirements
 - Python 3.6 or higher
 - Optional (for formatting and linting): `black`, `flake8`

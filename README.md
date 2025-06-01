@@ -75,20 +75,6 @@ Algorithm Details
 
 
 
-Algorithm       Time Complexity (Average)  Time Complexity (Worst)  Space Complexity  Stable             Notes
-Bubble Sort               O(n²)                      O(n²)               O(1)          Yes      Simple, inefficient for large lists
-Selection Sort            O(n²)                      O(n²)               O(1)           No      Minimizes swaps
-Insertion Sort            O(n²)                      O(n²)               O(1)          Yes      Good for small/nearly sorted lists
-Merge Sort             O(n log n)                  O(n log n)            O(n)          Yes      Stable, good for large lists
-Quick Sort             O(n log n)                    O(n²)             O(log n)         No      Fast in practice
-Heap Sort              O(n log n)                  O(n log n)            O(1)           No      Uses heap structure
-Timsort                O(n log n)                  O(n log n)            O(n)           Yes      Python’s default sort
-Counting Sort          O(n + k)                    O(n + k)            O(n + k)        Yes       For small integer ranges
-Radix Sort               O(nk)                       O(nk)             O(n + k)        Yes       For integers/strings
-Bucket Sort            O(n + k)                      O(n²)             O(n + k)        Yes       For uniformly distributed data
-
-
-
 k: Range of input values (Counting Sort) or number of digits (Radix Sort).
 Stability: A stable sort preserves the relative order of equal elements.
 
